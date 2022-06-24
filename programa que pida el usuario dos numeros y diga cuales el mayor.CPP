@@ -1,0 +1,17 @@
+/* Realizar un programa que pida el usuario dos numeros y diga cuales el mayor */
+#include<conio.h>
+#include<stdio.h>
+int num_1;
+int num_2;
+main()
+ {
+ printf(" Comparacion de dos numeros\n\n");
+ printf(" Dame el primer n%cmero: ", 163); scanf("%d", &num_1);
+ printf(" Dame el segundo n%cmero: ", 163); scanf("%d", &num_2);
+ if(num_1>num_2)
+
+ printf("\n El primer n%cmero es mayor que el segundo: %d", 163, num_1);
+ else printf("\n El segundo n%cmero es mayor que el primero: %d", 163, num_2);
+ printf("\n\n Autor: Irvin Adrian");
+ getch();
+}
